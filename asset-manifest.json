@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/seasons/static/js/main.96e8f9be.chunk.js",
-    "main.js.map": "/seasons/static/js/main.96e8f9be.chunk.js.map",
-    "runtime~main.js": "/seasons/static/js/runtime~main.fbc5b39b.js",
-    "runtime~main.js.map": "/seasons/static/js/runtime~main.fbc5b39b.js.map",
-    "static/js/2.4cbfd1a3.chunk.js": "/seasons/static/js/2.4cbfd1a3.chunk.js",
-    "static/js/2.4cbfd1a3.chunk.js.map": "/seasons/static/js/2.4cbfd1a3.chunk.js.map",
-    "index.html": "/seasons/index.html",
-    "precache-manifest.e5a7e3541bfd18b96602a4b1a1fe6c28.js": "/seasons/precache-manifest.e5a7e3541bfd18b96602a4b1a1fe6c28.js",
-    "service-worker.js": "/seasons/service-worker.js"
+    "main.js": "/display_season/static/js/main.3a0a6e97.chunk.js",
+    "main.js.map": "/display_season/static/js/main.3a0a6e97.chunk.js.map",
+    "runtime~main.js": "/display_season/static/js/runtime~main.7701740f.js",
+    "runtime~main.js.map": "/display_season/static/js/runtime~main.7701740f.js.map",
+    "static/js/2.4cbfd1a3.chunk.js": "/display_season/static/js/2.4cbfd1a3.chunk.js",
+    "static/js/2.4cbfd1a3.chunk.js.map": "/display_season/static/js/2.4cbfd1a3.chunk.js.map",
+    "index.html": "/display_season/index.html",
+    "precache-manifest.73044e5fad13a6ea1dc117f832775bde.js": "/display_season/precache-manifest.73044e5fad13a6ea1dc117f832775bde.js",
+    "service-worker.js": "/display_season/service-worker.js"
   }
 }
