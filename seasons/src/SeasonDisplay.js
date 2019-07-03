@@ -14,6 +14,8 @@ const seasonConfig = {
 }
 
 const getSeason = function (lat, month) {
+    // northern hemisphere have positive latitude, southern has negative latitude.
+    // for months between april and september, it's summer for northern hemisphere
     if(month >2 && month <9){
         return lat>0 ? "summer" : "winter";
     }else{
@@ -22,7 +24,8 @@ const getSeason = function (lat, month) {
 }
 
 const SeasonDisplay = props => {
-    const season = getSeason(props.lat, new Date().getMonth());
+
+    const season = getSeason(props.lat, new Date().getMonth()); //new Date().getMonth() returns the value of index of the month starting form 0
     const {text, iconName} = seasonConfig[season];
 return (<div className={`season-display ${season}`}>
     <i className={`icon massive ${iconName} icon-left`}></i>
