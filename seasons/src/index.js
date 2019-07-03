@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import SeasonDisplay from "./SeasonDisplay";
 
 class Seasons extends React.Component{
     constructor(props){
@@ -12,12 +13,12 @@ class Seasons extends React.Component{
             (position) => { this.setState({lat:position.coords.latitude}) },
             (err) => { this.setState({errorMessage:err.message}) }
         );
-        console.log(`lat ${this.state.lat} error ${this.state.errorMessage}`)
     }
 
     render(){
         if(this.state.lat && !this.state.errorMessage){
-            return <div>Latitude: {this.state.lat}</div>;
+            console.log(`latitude:${this.state.lat}`);
+            return <SeasonDisplay lat = {this.state.lat}/>;
         }
         if(!this.state.lat && this.state.errorMessage){
             return <div>err: {this.state.errorMessage}</div>;
